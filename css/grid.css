@@ -1,0 +1,220 @@
+em {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h2.subtitle {
+  text-align: center;
+  font-style: italic;
+}
+
+.jumbotron {
+  background-color: #fafafa;
+  margin-top: 20px;
+}
+
+.jumbotron h1 {
+  font-size: 30px;
+}
+.jumbotron h2 {
+  font-size: 20px;
+}
+.jumbotron p {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron h1 {
+    font-size: 40px;
+  }
+  .jumbotron h2 {
+    font-size: 30px;
+  }
+  .jumbotron p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .jumbotron h1 {
+    font-size: 50px;
+  }
+  .jumbotron h2 {
+    font-size: 40px;
+  }
+  .jumbotron p {
+    font-size: 21px;
+  }
+}
+
+p.lead {
+  margin-bottom: 0px;
+}
+
+label {
+  font-weight: normal;
+}
+
+input {
+  margin-top: 5px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+  border-right: 1px #eee solid;
+  border-bottom: 1px #eee solid;
+}
+
+table tr th, table tr td {
+  text-align: left;
+  vertical-align: top;
+}
+
+table tr td, table tr th {
+  padding: 0.3em 0.6em;
+  border-left: 1px #eee solid;
+  border-top: 1px #eee solid;
+}
+
+table tr td:first-child, table tr th:first-child {
+  width: 6em;
+  font-weight: bold;
+  text-align: center; 
+}
+
+h3 {
+  padding: 0.5em;
+  margin: 1em 0em;
+  text-align: center;
+  font-size: 30px;
+  background-color: #c7dcef;
+  color: #444;
+  font-weight: bold;
+}
+
+tr.previous-week td {
+  color: #999;
+}
+
+tr.previous-week th.past {
+  background-color: #d9534f !important;
+  color: #fff;
+}
+
+tr.previous-week th.future {
+  background-color: #5cb85c !important;
+  color: #fff;
+}
+
+tr.previous-week td a {
+  color: #999;
+  text-decoration: underline;
+}
+
+.question {
+  margin: 1em 0px;
+}
+
+.question-input {
+  margin-top: 0.3em;
+}
+
+.question-input label {
+  display: block;
+}
+
+.question textarea {
+  width: 95%;
+  height: 4.5em;
+  border: 1px #666 solid;
+}
+
+.question-title {
+  font-size: 130%;
+  padding-top: 0.6em;
+  padding-bottom: 0em;
+  line-height: 100%;
+}
+
+.question-comment {
+  font-style: italic;
+  color: #999;
+}
+
+.question-input.row label {
+  font-weight: bold;
+  color: #666;
+}
+
+.question-input label span.examples {
+  font-weight: normal;
+  color: #999;
+}
+
+.col-lg-4 input[type=checkbox] {
+  float: left;
+}
+
+div.check_description {
+  margin-left: 15px;
+}
+
+div.note_description {
+  margin-left: 3.5em;
+  margin-top: -1em;
+}
+
+#ghu-note-delete {
+  display: none;
+}
+
+.likert {
+  
+}
+
+.question-input {
+  margin-left: 1em;
+}
+
+input[type=radio] {
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+}
+
+.col1 {
+  background-color: #fed;
+}
+
+.col2 {
+  background-color: #eef;
+}
+
+.col3 {
+  background-color: #efe;
+}
+
+.col1, .col2, .col3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
